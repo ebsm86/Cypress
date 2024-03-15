@@ -9,4 +9,4 @@ describe('Visualization of header components', () => {
         textInput.buttons.buttonToChange.click();
         textInput.buttons.buttonToChange.should('have.text', nombreAleatorio);
     });
-});
+}); 
